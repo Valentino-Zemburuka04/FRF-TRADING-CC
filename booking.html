@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Your Car Wash - FRF Trading Enterprise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Book Your Car Wash Now!</h1>
+    <p>Fill in the form below to book your slot.</p>
+  </header>
+
+  <div class="container">
+    <h2>Booking Form</h2>
+    <form id="bookingForm" action="https://formspree.io/f/mnnpenee" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="phone" required>
+      <label for="car_type">Vehicle Type</label>
+      <input type="text" id="car_type" name="car_type" required>
+
+      <label for="wash_time">Preferred Wash Time</label>
+      <input type="datetime-local" id="wash_time" name="wash_time" required>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+
+  <footer>
+    Contact us at: +264 81 636 6666 | frfcleaning@gmail.com
+  </footer>
+</body>
+</html>
